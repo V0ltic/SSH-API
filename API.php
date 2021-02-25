@@ -59,13 +59,13 @@
     }
  
 
-    
+
  
     // Connect to the server
  
     $socket = fsockopen($ip, $port);
  
-    ($socket ? null : die("Failed to connect"));
+    ($socket ? null : die("Failed to connect!"));
  
     fwrite($socket, " \r\n");
    
@@ -95,7 +95,7 @@
 
     // Notify the command went through
  
-    echo "Your command has been successfully send to the server!";
+    echo "Your command has been successfully sent to the server!";
  
    
 ?>
