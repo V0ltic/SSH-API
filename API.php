@@ -2,7 +2,7 @@
     // Usage: https://server_ip/API.php?pass=yourpassword
    
 
-    // Print out any errors that occur
+    // Print out any errors that occurs
 
     error_reporting(E_ALL);
 
